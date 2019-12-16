@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Document */
+body{ 
+overflow-x: hidden;
+}
+
+*{ 
+margin: 0; 
+padding: 0; 
+font-family: "Roboto", sans-serif; 
+letter-spacing: 1px; 
+}
+
+/*---header contact information------------*/ 
+.header-contact{ 
+	background-color: rgba(12,12,12,1.00); 
+	padding: 8px 0; 
+	display: flex; 
+	justify-content:space-around; 
+}
+
+.header-contact a{ 
+	color: white; 
+	text-decoration: none; 
+	font-weight: 100; 
+}
+
+
+
+/*navbar------------------------*/ 
+.desktop-navbar{
+	display:flex;
+	z-index: 2;
+	position: relative;
+	background-color:rgba(110,33,22,1.00); 
+	
+}
+
+.desktop-navbar img{ 
+	object-fit: cover; 
+}
+
+.desktop-navbar-logo{ 
+margin: 0 0 0 70px; 
+}
+
+.navbar { 
+	margin: 0 0 0 20px; 
+	width: 800px; 
+	padding-top: 0;	
+}
+
+.navbar li{ 
+display: inline-block; 
+margin: 0 20px;
+padding-top: 30px;
+position: relative;
+
+}
+
+.navbar a{ 
+	text-decoration: none; 
+	color: white; 
+	letter-spacing: 1px; 
+}
+
+
+
+.navbar a:hover{ 
+	color: rgba(254,192,0,1.00); 
+	 
+}
+
