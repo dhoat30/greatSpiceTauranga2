@@ -11,22 +11,83 @@ font-family: "Roboto", sans-serif;
 letter-spacing: 1px; 
 }
 
+h3{ 
+	font-size: 20pt; 
+	font-weight: 500; 
+}
+
+h6{ 
+	font-weight: 900; 
+	font-size: 25pt;
+	letter-spacing: 3px; 
+}
+
 /*---header contact information------------*/ 
 .header-contact{ 
 	background-color: rgba(12,12,12,1.00); 
 	padding: 8px 0; 
 	display: flex; 
 	justify-content:space-around; 
+	
 }
-
-.header-contact a{ 
+.header-contact-flex{ 
+	position: relative; 
+}
+.header-contact-flex img{ 
+	position: absolute; 
+	left: -25px; 
+}
+.header-contact a{
 	color: white; 
 	text-decoration: none; 
 	font-weight: 100; 
 }
 
+/*hero section heading--------*/ 
+.hero-section{ 
+	margin-top: 10px; 
+}
+.hero-heading h2{ 
+	color: rgba(110,33,22,1.00); 
+	font-weight: 900;
+	text-align: center; 
+}
+.hero-awards{ 
+	display: flex; 
+	justify-content: center; 
+	flex-wrap: wrap; 
+}
+.hero-awards img{ 
+	display: block; 
+	margin: 0 10px 0 10px; 
+}
+.hero-button{ 
+	display: flex; 
+	justify-content:center; 
+	margin: 10px 0; 
+	
+}
 
+.hero-button a{ 
+	margin: 0 20px; 
+	text-decoration: none; 
+	color: white; 
+	padding: 10px 20px; 
+	border-radius: 3px; 
+}
+.hero-button a:nth-child(1){ 
+	background-color: rgba(75,218,100,1.00);
+	}
 
+.hero-button a:nth-child(2){ 
+	background-color: rgba(252,186,27,1.00); 
+}
+.hero-button a:nth-child(1):hover{ 
+	background-color: rgba(13,223,50,1.00); 
+}
+.hero-button a:nth-child(2):hover{ 
+	background-color:rgba(254,179,0,1.00); 
+}
 /*navbar------------------------*/ 
 .desktop-navbar{
 	display:flex;
@@ -63,11 +124,112 @@ position: relative;
 	color: white; 
 	letter-spacing: 1px; 
 }
-
-
-
 .navbar a:hover{ 
-	color: rgba(254,192,0,1.00); 
-	 
+	color: rgba(254,192,0,1.00);  
 }
 
+/*hero image------------*/ 
+.hero-image{ 
+	height: 80vh; 
+	position: relative; 
+}
+
+.hero-overlay{ 
+	background-color: rgba(0,0,0,0.5); 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+}
+
+.hero-text{ 
+	position: absolute; 
+	top: 50%;
+	left: 50%; 
+	transform: translate(-50%, -50%); 
+}
+.hero-text h2{ 
+	color: white; 
+	width: 600px; 
+	font-weight: 100; 
+	font-size: 25pt; 
+}
+
+/*menu-section----------*/ 
+.menu-section{ 
+	display: flex; 
+	flex-wrap: wrap; 
+}
+
+.menu-deal{ 
+	width: 50%; 
+	position: relative; 
+}
+.menu-deal h6{ 
+	position: absolute; 
+	top: 120px; 
+	left: 120px; 
+	color: white; 
+}
+.menu-deal h6::before{ 
+	content: url("photos/menu-deal-svg.png"); 
+	position: absolute; 
+	top: -65px; 
+}
+.menu-list{ 
+	width: 50%; 
+	background-color: rgba(243,86,89,1.00); 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+}
+
+.menu-text{ 
+	width: 70%; 
+}
+
+.menu-list h3{ 
+	color: rgba(252,186,27,1.00); 
+	border-bottom: solid 3px white; 
+	width: 100%; 
+	padding: 0 0 7px 0; 
+	margin-bottom: 30px; 
+}
+
+.menu-list h4{ 
+	color: white; 
+	font-weight: 500; 
+	display: inline-block; 
+}
+.menu-list p{ 
+	color: rgba(252,186,27,1.00); 
+	font-size: 9pt; 
+	margin-bottom: 15px; 
+}
+
+.underline1{ 
+		display: inline-block; 
+		border-bottom: dotted 3px white; 
+		width: 50%;
+}
+.underline2{ 
+	display: inline-block; 
+		border-bottom: dotted 3px white; 
+		width: 44%; 
+}
+.underline3 { 
+	display: inline-block; 
+		border-bottom: dotted 3px white; 
+		width: 69%; 
+}
+.underline4{ 
+display: inline-block; 
+		border-bottom: dotted 3px white; 
+		width: 69%; 
+}
+.underline5{ 
+	display: inline-block; 
+		border-bottom: dotted 3px white; 
+		width: 69%; 
+}
