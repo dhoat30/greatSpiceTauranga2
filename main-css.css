@@ -16,11 +16,18 @@ h3{
 	font-weight: 500; 
 }
 
-
+h5{ 
+	font-size: 16pt; 
+	font-weight: 600;
+}
 h6{ 
 	font-weight: 900; 
 	font-size: 25pt;
 	letter-spacing: 3px; 
+}
+p{ 
+	line-height: 1.3em; 
+	font-size: 14pt; 
 }
 
 /*---header contact information------------*/ 
@@ -586,7 +593,46 @@ form button:hover{
 	margin-left: 0; 
 	margin-top: -5px; 
 }
-.subscribe form input pla
+
+/*faq0-section-----------*/ 
+.faq-section{ 
+	background-color: rgba(254,214,118,1.00);
+	padding: 100px 0 20px 0; 
+	position: relative; 
+}
+.faq-section h6{ 
+	text-align: center; 
+	margin-bottom: 50px; 
+}
+
+.faq-section div:nth-child(3), .faq-second-part { 
+	width: 70%; 
+	max-width: 800px; 
+	margin: 0 auto; 
+}
+.faq-section p{ 
+	margin-bottom: 20px; 
+}
+
+.more-faq{ 
+	position: absolute; 
+	width: 100%; 
+	bottom: -26px; 
+	background-color: rgba(255,184,13,1.00); 
+	width: 100%; 
+	
+}
+.more-faq svg{ 
+	position: absolute;
+	top: 3px;
+	left: 55px; 
+}
+.more-faq h5{ 
+	position: relative; 
+	left: 45%; 
+	transform: translateY(-45%,-45%); 
+	font-weight: 400;	
+}
 
 
 

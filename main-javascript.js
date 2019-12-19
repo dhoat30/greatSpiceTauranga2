@@ -31,4 +31,10 @@
 		
 	})
 
+//faq section
+	$('.faq-second-part').hide();
+	$('.more-faq').click(function(){ 
+		$('.faq-second-part').slideDown("slow");
+		$('.more-faq').hide(); 
+	}); 
 	
