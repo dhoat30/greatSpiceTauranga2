@@ -16,6 +16,7 @@ h3{
 	font-weight: 500; 
 }
 
+
 h6{ 
 	font-weight: 900; 
 	font-size: 25pt;
@@ -316,6 +317,56 @@ display: inline-block;
 	transition-duration: 1s; 
 }
 
+/*-----About Us----------*/ 
+.about-us-background{ 
+	background-image: url("photos/about-us-background1600px.jpg"); 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-position: center; 
+	background-attachment: fixed; 
+	width: 100%; 
+	padding: 200px 0; 
+}
+
+.about-us-background h6{ 
+	color: white; 
+	text-align: center; 
+	font-size: 50pt; 
+}
+.about-us-text { 
+	margin: 100px auto; 
+	text-align: left; 
+	width: 80%; 
+	max-width: 800px; 
+}
+.about-us-text h6{ 
+	margin-bottom: 30px; 
+}
+
+/*---About khem Family--------*/
+
+.khem-family{ 
+	display: flex; 
+	justify-content:flex-end; 
+	width: 100%; 
+	background-image: url("photos/khem-family1600px.jpg"); 
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-position: center; 
+	padding: 300px 0;
+	background-attachment: fixed; 
+}
+.khem-family div{ 
+	width:600px;
+	margin-right: 40px;  color:rgba(110,33,22,1.00);  
+	text-align: left;  
+}
+
+.khem-family p{ 
+	color: black; 
+	margin-top: 10px; 
+	
+}
 /* book now section--------------*/ 
 .book-now-section{ 
 	display: flex; 
@@ -363,6 +414,73 @@ form button{
 }
 form button:hover{ 
 	background-color: rgba(255,180,0,1.00); 
+}
+/*REview Section-------------*/ 
+#review-section{ 
+	padding: 150px 0;  
+}
+
+.reviews{ 
+	margin: 0 auto; 
+	width: 70%; 
+	padding: 40px; 
+	text-align: center; 
+}
+
+.reviews .underline{ 
+	display: block; 
+	margin: 0 auto; 
+}
+
+.review-text{ 
+	margin: 0px 0 0 0; 
+	display: grid; 
+	grid-template-columns: 1fr 9fr 1fr; 
+	grid-template-rows:  200px; 
+	justify-content:center; 
+	align-items: center; 	
+}
+
+#review-paragraph{ 
+	font-style: italic;
+	font-size: 14pt; 
+}
+
+#review-paragraph span{ 
+	display: block; 
+	text-align: right; 
+	margin-top: 10px; 
+	font-family: "Roboto Black", sans-serif; 
+	font-weight: 900; 
+	font-size: 16pt;
+	font-style: normal; 
+	
+}
+
+#review-second-svg{
+	transform: rotate(180deg);
+	width: 40px; 
+	height: 50px; 
+}
+
+#review-first-svg{ 
+	width: 40px; 
+	height: 50px;
+}
+
+.arrow rect{ 
+	stroke: #fd6a59;
+}
+
+.arrow .Path_198{ 
+	stroke:  #fd6a59;
+}
+
+.arrow:hover rect{ 
+ fill: #fd6a59;
+}
+.arrow:hover .Path_198{ 
+	stroke: #ffffff;
 }
 
 /*newsletter section---------*/ 
