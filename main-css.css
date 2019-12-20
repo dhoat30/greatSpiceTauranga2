@@ -688,7 +688,139 @@ form button:hover{
 	margin-top: -5px; 
 }
 
+/*scroll up--------*/
+.scroll-up-arrow svg{
+	transform: rotateX(180deg); 
+	position: fixed; 
+	right: 40px; 
+	bottom: 40px;
+}
 
+
+/*two specials ------------------------------*/ 
+
+.two-special{ 
+	margin: 0 auto; 
+	width: 95%; 
+	display: grid; 
+	grid-template-columns:  1fr 1fr 1fr; 
+	grid-template-areas: 
+		"dinner-special-image dinner-special-text dinner-special-text"
+		"lunch-special-text lunch-special-image lunch-special-image";
+}
+
+.dinner-special-image{ 
+	grid-area: dinner-special-image; 
+	background-image: url("photos/dinner-special-papamoa-east.jpg");
+	width: 100%; 
+	height: auto; 
+}
+
+.dinner-special-text{ 
+	
+grid-area: dinner-special-text; 
+	padding: 60px 10px 60px 40px;
+ 	filter: saturate(120%); 
+	background-color: rgba(199,154,71,1.00); 
+	border-top-right-radius: 150px; 
+}
+
+.lunch-special-image{  
+	grid-area: lunch-special-image; 
+	background-image: url("photos/lunch-special.jpg");
+	background-size: cover; 
+	background-position: center; 
+	width: 100%; 
+	height: auto; 
+}
+
+.lunch-special-text{
+	text-align: right; 
+	padding: 80px 40px 80px 10px; 
+ 	filter: saturate(120%); 
+	background-color: rgba(199,154,71,1.00); 
+	border-bottom-left-radius: 150px;
+}
+
+.two-special h4{ 
+	color: white; 
+	font-size: 25pt; 
+	font-weight: 100; 
+	font-family: Roboto-black, sans-serif; 
+	letter-spacing: 2px; 
+}
+.two-special p{ 
+	color: white; 
+}
+.two-special span{ 
+	color: white; 
+	font-family: Roboto-Regular, sans-serif; 
+	font-size: 14pt; }
+
+.two-special h5{ 
+	color: white; 
+	font-size: 80pt;
+	font-family: Roboto-Regular, sans-serif; 
+	font-weight: 100; 
+	}
+
+/*specials----------------*/
+
+.specials{ 
+	background-image:url("photos/Restaurant-photo1600px.jpg"); 
+	margin-top: 0px; 
+	width: 100%; 
+	position: relative; 
+	background-attachment: fixed; 
+	z-index: -2; 
+	background-size:cover; 
+	background-repeat: no-repeat; 
+}
+.special-overlay{ 
+	background-color: black; 
+	position: absolute; 
+	width: 100%; 
+	height: 100%; 
+	opacity: 0.2; 
+	z-index: -1; 
+}
+
+.special-grid{ 
+	padding: 40px 0; 
+	display: flex; 
+	flex-wrap: wrap; 
+	justify-content: center; 
+}
+
+.special-box{ 
+	background-color: rgba(255,204,83,1.00); 
+	width: 300px; 
+	height: 360px; 
+	margin: 10px; 
+}
+
+
+.specials h5 { 
+	color:black; 
+	font-size: 50pt;
+	font-family: Roboto-Regular, sans-serif; 
+	font-weight: 100;
+	text-align: center; 
+	padding-top: 40px; 
+	filter: saturate(150%); 
+}
+
+.specials h3{ 
+	color:rgba(0,6,47,1.00); 
+	filter: saturate(150%); 
+	margin-left: 20px; 
+	
+}
+.specials ul{ 
+	color:rgba(110,33,22,1.00);
+	margin: 5px 10px 0 40px; 
+	font-family: Roboto-Light, Roboto-Medium, sans-serif; 
+}
 
 
 

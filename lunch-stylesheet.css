@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+body{ 
+overflow-x: hidden;
+}
+
+*{ 
+margin: 0; 
+padding: 0; 
+font-family: "Roboto", sans-serif; 
+letter-spacing: 1px; 
+}
+
+h1{ 
+	font-size: 45pt;
+	font-weight: 900; 
+}
+
+/*dine in parralz*/ 
+.dine-in-parallax{ 
+	padding: 200px 0; 
+	background-image: url("photos/dine-in-photos/dine-in-1600px.jpg"); 
+	color: white; 
+	text-align: center; 
+	background-size: cover; 
+	background-position: center; 
+	background-attachment: fixed; 
+	position: relative; 
+	z-index: -2; 
+}
+.dine-in-overlay{ 
+	position: absolute; 
+	background-color: rgba(0,0,0,0.67); 
+	top: 0; 
+	height: 100%; 
+	width: 100%; 
+	z-index: -1; 
+}
+
+/*special box-----------*/ 
+.specials h1{ 
+	color: white; 
+	text-align: center; 
+	padding-top: 100px; 
+}
+.specials h4{ 
+	font-size: 25pt; 
+	font-weight: 400; 
+	color: white; 
+	text-align: center; 
+}
+
+
