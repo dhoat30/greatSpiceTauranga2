@@ -46,22 +46,27 @@ h1{
 	background-color:rgba(110,33,22,1.00); 
 }
 /*menu-items--------*/ 
-.menu-items-flex { 
-	
-	text-align: left; 
-	display: flex; 
-	justify-content:center; 
-	background-color:#FFFCE1; 
+.menu-items{
 	width: 80%;
 	max-width: 1000px; 
 	margin: 20px auto; 
 	padding: 40px; 
 	box-shadow: 10px 10px 3px 0 gray; 
+	background-color:#FFFCE1;
+}
+.menu-items-flex { 
+	text-align: left; 
+	display: flex; 
+	justify-content:center; 
 }
 
 .menu-items-flex div:nth-child(1){ 
 	width: 80%; 
-	margin-top: 20px; 
+	margin-top: 40px; 
+}
+.menu-items-flex div:nth-child(2){ 
+	margin-top: 40px; 
+	width: 50px; 
 }
 .menu-items-flex h5{ 
 	color: black; 
@@ -80,20 +85,21 @@ h1{
 }
 .menu-items-flex h4{ 
 	font-style: normal; 
-	font-weight: 400; 
+	font-weight: 400;
+
 	font-size: 20pt; 
 }
 /*banquet-section--------*/ 
-#banquet{ 
+.menu-class-items{ 
 	color: rgba(110,33,22,1.00); 
 	text-align: center; 
 }
-#banquet h6{ 
+.menu-class-items h6{ 
 	border-bottom: solid 2px rgba(110,33,22,1.00); 
 	width:180px;
 	margin: 0 auto 10px auto; 
 }
-#banquet h3{ 
+.menu-class-items h3{ 
 	font-style: italic; 
 	font-weight: 300; 
 	font-size: 18pt; 
