@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/* CSS Document */
+body{ 
+overflow-x: hidden;
+}
+
+*{ 
+margin: 0; 
+padding: 0; 
+font-family: "Roboto", sans-serif; 
+letter-spacing: 1px; 
+}
+
+h1{ 
+	font-size: 45pt;
+	font-weight: 900; 
+}
+
+/*dine in parralz*/ 
+.dine-in-parallax{ 
+	padding: 200px 0; 
+	background-image: url("photos/dine-in-photos/dine-in-1600px.jpg"); 
+	color: white; 
+	text-align: center; 
+	background-size: cover; 
+	background-position: center; 
+	background-attachment: fixed; 
+}
+.menu-classes{ 
+	display: flex; 
+	flex-wrap: wrap; 
+	justify-content: center; 
+	padding: 50px; 
+}
+.menu-classes a{ 
+	font-size: 10pt; 
+	display: block; 
+	margin: 5px 5px; 
+	padding: 10px 10px; 
+	border: solid 2px rgba(110,33,22,1.00); 
+	text-decoration: none; 
+	color: rgba(110,33,22,1.00); 
+}
+.menu-classes a:hover{ 
+	color: white; 
+	background-color:rgba(110,33,22,1.00); 
+}
+/*menu-items--------*/ 
+.menu-items{
+	width: 80%;
+	max-width: 1000px; 
+	margin: 20px auto; 
+	padding: 40px; 
+	box-shadow: 10px 10px 3px 0 gray; 
+	background-color:#FFFCE1;
+}
+.menu-items-flex { 
+	text-align: left; 
+	display: flex; 
+	justify-content:center; 
+}
+
+.menu-items-flex div:nth-child(1){ 
+	width: 80%; 
+	margin-top: 40px; 
+}
+.menu-items-flex div:nth-child(2){ 
+	margin-top: 40px; 
+	width: 50px; 
+}
+.menu-items-flex h5{ 
+	color: black; 
+	font-weight: 500; 
+	border-bottom: dotted 2px #3C3C3C;
+}
+.menu-items-flex p span{ 
+	font-size: 12pt; 
+	font-weight: 700; 
+}
+.menu-items-flex p{ 
+	margin-top: 10px; 
+	color: #3C3C3C; 
+	font-size: 12pt; 
+	width: 75%; 
+}
+.menu-items-flex h4{ 
+	font-style: normal; 
+	font-weight: 400;
+
+	font-size: 20pt; 
+}
+/*banquet-section--------*/ 
+.menu-class-items{ 
+	color: rgba(110,33,22,1.00); 
+	text-align: center;
+	margin: 0 0 100px 0; 
+}
+.menu-class-items h6{ 
+	border-bottom: solid 2px rgba(110,33,22,1.00); 
+	width:180px;
+	margin: 0 auto 10px auto; 
+}
+.menu-class-items h3{ 
+	font-style: italic; 
+	font-weight: 300; 
+	font-size: 18pt; 
+}
+
+/*scroll up--------*/
+.scroll-up-arrow svg{
+	transform: rotateX(180deg); 
+	position: fixed; 
+	right: 40px; 
+	bottom: 40px;
+}
+
