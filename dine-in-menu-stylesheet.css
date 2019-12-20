@@ -92,7 +92,8 @@ h1{
 /*banquet-section--------*/ 
 .menu-class-items{ 
 	color: rgba(110,33,22,1.00); 
-	text-align: center; 
+	text-align: center;
+	margin: 0 0 100px 0; 
 }
 .menu-class-items h6{ 
 	border-bottom: solid 2px rgba(110,33,22,1.00); 
@@ -103,6 +104,13 @@ h1{
 	font-style: italic; 
 	font-weight: 300; 
 	font-size: 18pt; 
-	
+}
+
+/*scroll up--------*/
+.scroll-up-arrow svg{
+	transform: rotateX(180deg); 
+	position: fixed; 
+	right: 40px; 
+	bottom: 40px;
 }
 
