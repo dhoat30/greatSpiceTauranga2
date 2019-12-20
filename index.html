@@ -17,8 +17,18 @@
 	 integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
 	 crossorigin="anonymous">
 </script>
-	
+
+<!----Animation cdn--> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.js"></script>
+
+	<script src="/path/to/jquery.flip.min.js"></script>
 </head>
+
+	
 
 <body>
 	<div class="header-contact"> 
@@ -74,7 +84,7 @@
 		</div>
 	</div>
 	
-	<div class="menu-section"> 
+	<!--<div class="menu-section"> 
 		<div class="menu-deal"> 
 			<img src="photos/menu-deal.jpg" alt="$16 Lunch Deal at Great Spice Tauranga" width="100%" height="100%"> 
 			<h6> LUNCH DEAL $16 ONLY</h6>
@@ -111,6 +121,133 @@
 			</div>
 		</div>
 	</div>
+	--> 
+	
+	
+	<!--<div class="menu-section"> 
+		<picture> 
+				 <source media="(min-width: 1200px)" srcset="photos/menu-spices1600px.jpg" >
+				<source media="(min-width: 800px)" srcset="photos/menu-spices1200px.jpg" >
+				  <source media="(min-width: 400px)" srcset="photos/menu-spices800px.jpg"  >
+				  <img src="photos/menu-spices400px.jpg" alt="Indian Restaurant Spices In Bureta" width="100%" height="100%">
+		</picture>
+		
+		<div class="menu-flex"> 
+			<div> 
+				<h3> DINE IN MENU</h3>
+				<a href="dine-in-menu.html" target="_blank"> <img src="photos/dine-menu.jpg" alt="Dine In Menu of Great Spice Indian Restaurant in Tauranga"> </a>
+			</div>
+			<div> 
+				<h3>TAKEAWAY MENU</h3>
+				<a href="takeaway-menu.html" target="_blank"> <img src="photos/takeaway-menu.jpg" alt="Takeaway Menu of Great Spice Indian Restaurant in Tauranga"> </a>
+			</div>
+		</div>
+	</div>-->
+	
+	<div id="specials" class="two-special"> 
+		<div class="dinner-special-image">
+		
+		</div>
+		<div class="dinner-special-text"> 
+			<div class="dinner-special-text-animation"> 
+			<h4>Great Spice Dinner Special (Takeaway Only)</h4><br> 
+			<p style="font-weight: 900;">ENTREE:</p>
+			<p>1pcs of Vegetable Samosa, Chicken Tikka, Sheekh Kebab, Onion Bhaji</p><br>
+			<p style="font-weight: 900;">MAINS:</p>
+			<p>2 Main Course Curries, Plain & Garlic Naan <br> (Excluding Seafood & Tandoori)</p><br> 
+			<h5><span>$</span> 48</h5>
+			</div> 
+		</div>
+		
+		<div class="lunch-special-text">
+			<div class="lunch-special-text-animation"> 
+			<h4>LUNCH COMBO</h4><br> 
+			<p>Curry, Rice, Naan & Soft Drink <br> 
+(Takeaway Only) (Excluding Seafood & Goat)</p><br>
+			
+			<h5><span>$</span>12</h5>
+			</div>
+		</div>
+		<div class="lunch-special-image"> </div>	
+	</div>
+	
+	<div class="specials"> 
+		<div class="special-overlay"> </div>
+			<h1>LUNCH MENU</h1>
+		<h4>BETWEEN 11:00AM TO 2:30PM ONLY 7 DAYS</h4>
+		<div class="special-grid">
+			<div class="special-box"> 
+				<h5><span>$</span>8.99</h5>
+				<h3>Takeaway Only</h3>
+				<ul> 
+					<li>Curry</li>
+					<li>Rice</li>
+				</ul>
+			</div>
+			
+			<div class="special-box"> 
+				<h5><span>$</span>10</h5>
+				<h3>Takeaway Only</h3>
+				<ul> 
+					<li>Curry</li>
+					<li>Rice</li>
+					<li> Naan</li>
+				</ul>
+			</div>
+		
+			
+			<div class="special-box"> 
+				<h5><span>$</span>12</h5>
+				<h3>Dine In Combo 1</h3>
+				<ul> 
+					<li>Curry</li>
+					<li>Rice</li>
+					<li>Plain Naan</li>
+					<li>Papadom</li>
+				</ul>
+			</div>
+			
+			<div class="special-box"> 
+				<h5><span>$</span>15</h5>
+				<h3>Dine In Combo 2</h3>
+				<ul> 
+					<li>Curry</li>
+					<li>Rice</li>
+					<li>Plain Naan</li>
+					<li>Papadom</li>
+					<li>Soft Drink / Juice / Mango Lassi</li>
+				</ul>
+			</div>
+				
+			<div class="special-box"> 
+				<h5><span>$</span>16</h5>
+				<h3>Dine In Combo 3</h3>
+				<ul> 
+					<li>Curry</li>
+					<li>Rice</li>
+					<li>Plain Naan</li>
+					<li>Papadom</li>
+					<li>Glass of House Wine or Glass of Beer</li>
+				</ul>
+			</div>
+			</div>	
+	</div>
+	
+	<div id="menu-section">
+		<div class="menus">
+			<div>
+				<a href="takeaway-menu.html">Takeaway Menu</a>
+			</div>
+			<div>
+				<a href="lunch-menu.html"> Lunch Menu</a>
+			</div>
+			<div>
+				<a href="dine-in-menu.html">Dine In Menu</a>
+			</div>
+		
+		</div>
+	
+	</div>
 	
 	<div class="opening-hours-section"> 
 		<picture> 
@@ -134,42 +271,6 @@
 			
 			<p>Our dishes are made fresh to order (excluding some starters). Most of our main dishes are Gluten-free. We also cater for Vegan, Dairy-free and any other dietary requirement. (please ask our friendly staff when you place an order)<br><br>  We also do delivery service for $5 delivery charge, and minimum delivery is $35 (up to 10 km from restaurant condition apply)<br> <br> We also do outdoor catering for Wedding, Birthday and Private Functions.</p>
 		</div>
-	</div>
-	
-	<div class="menu-section"> 
-		<picture> 
-				 <source media="(min-width: 1200px)" srcset="photos/menu-spices1600px.jpg" >
-				<source media="(min-width: 800px)" srcset="photos/menu-spices1200px.jpg" >
-				  <source media="(min-width: 400px)" srcset="photos/menu-spices800px.jpg"  >
-				  <img src="photos/menu-spices400px.jpg" alt="Indian Restaurant Spices In Bureta" width="100%" height="100%">
-		</picture>
-		
-		<div class="menu-flex"> 
-			<div> 
-				<h3> DINE IN MENU</h3>
-				<a href="dine-in-menu.html" target="_blank"> <img src="photos/dine-menu.jpg" alt="Dine In Menu of Great Spice Indian Restaurant in Tauranga"> </a>
-			</div>
-			<div> 
-				<h3>TAKEAWAY MENU</h3>
-				<a href="takeaway-menu.html" target="_blank"> <img src="photos/takeaway-menu.jpg" alt="Takeaway Menu of Great Spice Indian Restaurant in Tauranga"> </a>
-			</div>
-		</div>
-	</div>
-	
-	<div id="menu-section">
-		<div class="menus">
-			<div>
-				<a href="takeaway-menu.html">Takeaway Menu</a>
-			</div>
-			<div>
-				<a href="lunch-menu.html"> Lunch Menu</a>
-			</div>
-			<div>
-				<a href="dine-in-menu.html">Dine In Menu</a>
-			</div>
-		
-		</div>
-	
 	</div>
 	
 	<div id="about-us"> 

@@ -34,7 +34,7 @@ p{
 .header-contact{ 
 	background-color: rgba(12,12,12,1.00); 
 	padding: 8px 0; 
-	display: flex; 
+	display: none; 
 	justify-content:space-around; 
 	
 }
@@ -98,7 +98,7 @@ p{
 }
 /*navbar------------------------*/ 
 .desktop-navbar{
-	display:flex;
+	display:none;
 	z-index: 2;
 	position: relative;
 	background-color:rgba(110,33,22,1.00); 
@@ -700,6 +700,7 @@ form button:hover{
 /*two specials ------------------------------*/ 
 
 .two-special{ 
+	padding: 100px 0; 
 	margin: 0 auto; 
 	width: 95%; 
 	display: grid; 
@@ -784,7 +785,18 @@ grid-area: dinner-special-text;
 	opacity: 0.2; 
 	z-index: -1; 
 }
-
+.specials h1{ 
+	color: white; 
+	text-align: center; 
+	padding-top: 100px; 
+	font-size: 45pt; 
+}
+.specials h4{ 
+	font-size: 25pt; 
+	font-weight: 400; 
+	color: white; 
+	text-align: center; 
+}
 .special-grid{ 
 	padding: 40px 0; 
 	display: flex; 
@@ -821,6 +833,7 @@ grid-area: dinner-special-text;
 	margin: 5px 10px 0 40px; 
 	font-family: Roboto-Light, Roboto-Medium, sans-serif; 
 }
+
 
 
 
