@@ -34,7 +34,7 @@ p{
 .header-contact{ 
 	background-color: rgba(12,12,12,1.00); 
 	padding: 8px 0; 
-	display: none; 
+	display: flex; 
 	justify-content:space-around; 
 	
 }
@@ -53,7 +53,7 @@ p{
 
 /*hero section heading--------*/ 
 .hero-section{ 
-	margin-top: 10px; 
+	padding: 50px 0;
 }
 .hero-heading h2{ 
 	color: rgba(110,33,22,1.00); 
@@ -98,7 +98,7 @@ p{
 }
 /*navbar------------------------*/ 
 .desktop-navbar{
-	display:none;
+	display:flex;
 	z-index: 2;
 	position: relative;
 	background-color:rgba(110,33,22,1.00); 
@@ -135,7 +135,58 @@ position: relative;
 .navbar a:hover{ 
 	color: rgba(254,192,0,1.00);  
 }
+/*mobile-navbar-------*/ 
+.mobile-navbar{ 
+	position: fixed; 
+	z-index: 10; 
+	width: 100%;
+	top: 0; 
+	display: none; 
+}
+.mobile-navbar-stripe{
+	background-color: white; 
+}
+.hamburger-menu{ 
+	padding: 10px 0 8px 12px; 
+}
 
+.mobile-navbar img{ 
+	position: absolute; 
+	top: 0; 
+	left: 50%; 
+	transform: translateX(-50%); 
+}
+
+.mobile-navbar-stripe a{ 
+	position: absolute; 
+	top: 0; 
+	right: 0; 
+	padding: 12px 10px 0 0; 
+}
+
+.menu-list{ 
+	background-color: white; 
+	height: 100vh; 
+	display: none; 
+}
+.menu-list .close-icon{ 
+	padding: 10px 0 8px 12px;
+}
+.menu-list ul li a{ 
+	font-size: 12pt; 
+	width: 100%; 
+	margin:10px 0 10px 20px; 
+	text-decoration: none; 
+	font-family:"Roboto", sans-serif; 
+	color: rgba(120,120,120,1.00); 
+	display: block; 
+	border-bottom: solid 0.1em rgba(120,120,120,1.00);;
+	padding: 0 0 10px 0; 
+}
+
+.menu-list a:hover { 
+	color: rgba(252,186,27,1.00);
+}
 
 /*hero image------------*/ 
 .hero-image{ 
@@ -164,8 +215,8 @@ position: relative;
 	font-weight: 100; 
 	font-size: 25pt; 
 }
+/*
 
-/*menu-section----------*/ 
 .menu-section{ 
 	display: flex; 
 	flex-wrap: wrap; 
@@ -243,7 +294,7 @@ display: inline-block;
 		border-bottom: dotted 3px white; 
 		width: 59%; 
 }
-
+*/ 
 /*opening hours-------------*/ 
 .opening-hours-section{ 
 	position: relative; 

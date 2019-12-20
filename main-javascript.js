@@ -1,4 +1,20 @@
 // JavaScript Document
+// JavaScript Document
+	$(".hamburger-menu").click(function(){ 
+			
+			$(".menu-list").slideDown("slow", "swing");
+			$(".hamburger-menu").hide("slow","swing"); 
+		})
+		
+		$(".close-icon").on('click',function(){ 
+			$(".menu-list").hide("slow","swing"); 
+			$(".hamburger-menu").slideUp("slow","swing"); 
+		})
+
+		$(".menu-list").on('click', function(){ 
+			$(".menu-list").hide("slow","swing"); 
+			$(".hamburger-menu").show("slow","swing"); 
+		})
 
 //Review section
 

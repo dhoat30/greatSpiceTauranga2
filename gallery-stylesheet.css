@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{ 
+margin: 0; 
+padding: 0; 
+}
+
+.gallery{ 
+	background-color: white;
+position: relative; 
+	top: 60px; 
+	margin:  0 auto; 
+	display: grid; 
+	grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); 
+	justify-content: center; 
+	align-items: center; 
+	align-content: center; 
+	grid-gap: 5px;
+	padding: 50px 0; 
+	
+} 
+.gallery a{ 
+display: block; 
+	margin: 10px auto; 
+}
+
+.gallery img{ 
+ transition: 1s; 
+	width: 210px; 
+	height: 160px; 
+	display: block;
+	object-fit: cover;
+}
+
+.gallery img:hover{ 
+	filter: grayscale(100%); 
+	transform: scale(1.1); 
+	
+}
+
