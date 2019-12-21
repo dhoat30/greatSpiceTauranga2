@@ -16,7 +16,7 @@
 			$(".hamburger-menu").show("slow","swing"); 
 		})
 
-//form validaiton
+	//form validaiton
 
 		
 		function form()
@@ -31,7 +31,7 @@
 		{
 			alert("Please enter your name");
 			name.focus(); 
-			name.style.background = "gray";
+			name.style.background = "#FFEFC7";
 			return false; 
 		}
 	name.style.background = "white"; 
@@ -40,7 +40,7 @@
 		{
 			alert("Please enter your phone number"); 
 			phone.focus(); 
-			phone.style.background = "gray";
+			phone.style.background = "#FFEFC7";
 			return false; 
 		}
 	phone.style.background = "white"; 
@@ -49,7 +49,7 @@
 		{
 			alert("Please enter the date"); 
 			date.focus(); 
-			date.style.background = "gray";
+			date.style.background = "#FFEFC7";
 			return false; 
 		}
 	date.style.background = "white"; 
@@ -58,7 +58,7 @@
 		{
 			alert("Please enter the time"); 
 			time.focus(); 
-			time.style.background = "gray";
+			time.style.background = "#FFEFC7";
 			return false; 
 		}
 	time.style.background = "white"; 
@@ -67,6 +67,38 @@
 		alert("invalid date"); 
 		return false;
 	}
+}
+
+//newsletter form
+		function newsletterForm()
+{
+	var fullName=document.getElementById("full-name"); 
+    var email=document.getElementById("email"); 
+	
+	
+	if(fullName.value.length === 0)
+		{
+			alert("Please enter your Name");
+			fullName.focus(); 
+			fullName.style.background = "#FFEFC7";
+			return false; 
+		}
+	fullName.style.background = "white"; 
+	
+	if(email.value.length === 0)
+		{
+			alert("Please enter your Email"); 
+			email.focus(); 
+			email.style.background = "#FFEFC7";
+			return false; 
+		}
+	email.style.background = "white"; 
+	
+		if (result===false){ 
+		alert("invalid date"); 
+		return false;
+	}
+	
 }
 //Review section
 

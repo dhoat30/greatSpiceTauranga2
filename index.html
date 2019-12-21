@@ -363,21 +363,23 @@ The Great Spice business was established by Khem’s brother Bishnu Aryal back i
 	</div>
 	<div id="book-now" class="book-now-section"> 
 		<h6>Book A Table</h6>
-		<form method="post" action="form-processor.php"> 
+		<form  method="post" onSubmit="return form()" action="form-processor.php?id=44#book-now"> 
 				<label for="name">Your Name</label>
 				<input type="text" name="name" id="name"> 
 
 				<label for="number">Phone Number</label>
-				<input type="number" name="phone-number"> 
+				<input type="number" name="phone-number" id="phone-number"> 
 			
 				<label for="guests">Number Of Guests</label>
-				<input type="number" name="guests" id="guests"> 
+				<input type="number" name="number-of-guests" id="guests"> 
 			
 				<label for="date">Date</label>
-				<input type="date" name="date">
+				<input type="date" name="date" id="date">
+			
 				<label for="time"> Time</label>
-				<input type="time" name="time"> 
+				<input type="time" name="time" id="time"> 
 				<p> *Minimum 5 hours of notice</p>
+			
 				<button type="submit" name="submit"> Book Now </button>
 		</form>
 	</div>
@@ -553,21 +555,21 @@ The Great Spice business was established by Khem’s brother Bishnu Aryal back i
 			</div>
 		
 		</div>
-		<div class="subscribe"> 
+		<div class="subscribe" id="subscribe"> 
 			<h6>Newsletter</h6>
-			<form action="" method="post">
-					<input type="text" id="name-newsletter" placeholder="Your Name"> 
-					<input type="email" id="email" placeholder="Email"> 
-					<button type="submit" name="submit"> Subscribe</button>
+			<form action="form-processor.php?id=44#subscribe" method="post" onSubmit="return newsletterForm()">
+					<input type="text" id="name-newsletter" placeholder="Your Name" name="full-name"> 
+					<input type="email" id="email" placeholder="Email" name="email"> 
+					<button type="submit" name="submit2"> Subscribe</button>
 			</form>
 		</div>
 	</div>
 	<div class="scroll-up-arrow">
 		<a href="#dine-in-parallax"> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 33 33">
-			  <g id="Icon_feather-arrow-down-circle" data-name="Icon feather-arrow-down-circle" transform="translate(-1.5 -1.5)">
-				<path id="Path_424" data-name="Path 424" d="M33,18A15,15,0,1,1,18,3,15,15,0,0,1,33,18Z" fill="none" stroke="#FCBA1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-				<path id="Path_425" data-name="Path 425" d="M12,18l6,6,6-6" fill="none" stroke="#FCBA1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-				<path id="Path_426" data-name="Path 426" d="M18,12V24" fill="none" stroke="#FCBA1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+			  <g id="Icon_feather-arrow-down-circle1" data-name="Icon feather-arrow-down-circle" transform="translate(-1.5 -1.5)">
+				<path id="Path_4242" data-name="Path 424" d="M33,18A15,15,0,1,1,18,3,15,15,0,0,1,33,18Z" fill="none" stroke="#FCBA1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+				<path id="Path_4252" data-name="Path 425" d="M12,18l6,6,6-6" fill="none" stroke="#FCBA1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+				<path id="Path_4262" data-name="Path 426" d="M18,12V24" fill="none" stroke="#FCBA1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
 			  </g>
 		</svg>
 		</a>
@@ -579,5 +581,6 @@ The Great Spice business was established by Khem’s brother Bishnu Aryal back i
 	
 	
 	<script type="text/javascript" src="main-javascript.js"> </script>
+
 </body>
 </html>

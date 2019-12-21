@@ -362,26 +362,10 @@ The Great Spice business was established by Khem’s brother Bishnu Aryal back i
 		</div>
 		
 	</div>
-	<div id="book-now" class="book-now-section"> 
+	<div id="book-now" class="book-now-section" onSubmit="return form()"> 
 		<h6>Book A Table</h6>
 		<form method="post"> 
-				<label for="name">Your Name</label>
-				<input type="text" name="name" id="name"> 
-
-				<label for="number">Phone Number</label>
-				<input type="number" name="phone-number" id="phone-number"> 
-			
-				<label for="guests">Number Of Guests</label>
-				<input type="number" name="guests" id="guests"> 
-			
-				<input type="text" placeholder="what"> 
-			
-				<label for="date">Date</label>
-				<input type="date" name="date" id="date">
-				<label for="time"> Time</label>
-				<input type="time" name="time" id="time"> 
-				<p> *Minimum 5 hours of notice</p>
-				<button type="submit" name="submit"> Book Now </button>
+				<h3 style="text-align: center;"> Thanks For Booking A Table...</h3>
 		</form>
 	</div>
 	<div class="faq-section">
@@ -556,9 +540,9 @@ The Great Spice business was established by Khem’s brother Bishnu Aryal back i
 			</div>
 		
 		</div>
-		<div class="subscribe"> 
+		<div class="subscribe" id="subscribe"> 
 			<h6>Newsletter</h6>
-			<form action="" method="post">
+			<form action="form-processor.php?id=44#subscribe" method="post">
 					<input type="text" id="name-newsletter" placeholder="Your Name"> 
 					<input type="email" id="email" placeholder="Email"> 
 					<button type="submit" name="submit"> Subscribe</button>
@@ -582,5 +566,24 @@ The Great Spice business was established by Khem’s brother Bishnu Aryal back i
 	
 	
 	<script type="text/javascript" src="main-javascript.js"> </script>
+	
+		<?php
+	
+if(isset($_POST['submit'])){ 
+	$name=$_POST['name']; 
+	$phone=$_POST['phone-number']; 
+	$date=$_POST['date'];
+ 
+	$time=$_POST['time']; 
+	$guests=$_POST['number-of-guests']; 
+	$message="<h1> Thanks for the Reservation</h1>`"; 
+	$msg="Resrvation Form: \n Name: $name \n Phone: $phone \n Booking Date: $date \n Booking Time: $time \n Number of guests $guests"; 
+
+	$to='dhoat30@gmail.com'; 
+	$sub="Reservation Form"; 
+	mail($to,$sub,$msg); 
+	
+}
+	?>	
 </body>
 </html>
