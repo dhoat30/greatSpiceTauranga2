@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
-body{ 
+.overflow{ 
 overflow-x: hidden;
 }
 
@@ -97,6 +97,37 @@ p{
 .hero-button a:nth-child(2):hover{ 
 	background-color:rgba(254,179,0,1.00); 
 }
+/*hero image------------*/ 
+.hero-image{ 
+	height: 80vh; 
+	position: relative; 
+}
+
+.hero-overlay{ 
+	background-color: rgba(0,0,0,0.5); 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+}
+
+.hero-text{ 
+	position: absolute; 
+	top: 50%;
+	left: 50%; 
+	transform: translate(-50%, -50%); 
+	width: 100%; 
+}
+.hero-text h2{ 
+	color: white; 
+	width: 70%;
+	 max-width: 700px; 
+	min-width: 320px;
+	font-weight: 100; 
+	font-size: 25pt;  
+	margin: 0 auto;
+}
 /*navbar------------------------*/ 
 .desktop-navbar{
 	display:flex;
@@ -189,33 +220,7 @@ position: relative;
 	color: rgba(252,186,27,1.00);
 }
 
-/*hero image------------*/ 
-.hero-image{ 
-	height: 80vh; 
-	position: relative; 
-}
 
-.hero-overlay{ 
-	background-color: rgba(0,0,0,0.5); 
-	position: absolute; 
-	top: 0; 
-	left: 0; 
-	width: 100%; 
-	height: 100%; 
-}
-
-.hero-text{ 
-	position: absolute; 
-	top: 50%;
-	left: 50%; 
-	transform: translate(-50%, -50%); 
-}
-.hero-text h2{ 
-	color: white; 
-	width: 600px; 
-	font-weight: 100; 
-	font-size: 25pt; 
-}
 /*
 
 .menu-section{ 

@@ -577,7 +577,7 @@ if(isset($_POST['submit'])){
 	$message="<h1> Thanks for the Reservation</h1>`"; 
 	$msg="Resrvation Form: \n Name: $name \n Phone: $phone \n Booking Date: $date \n Booking Time: $time \n Number of guests $guests"; 
 
-	$to='dhoat30@gmail.com'; 
+	$to='info@greatspicetauranga.co.nz'; 
 	$sub="Reservation Form"; 
 	mail($to,$sub,$msg); 
 	
@@ -593,7 +593,7 @@ if(isset($_POST['submit'])){
 			$message="<h1> Thanks for the Subscription</h1>`"; 
 			$msg="Subscription Form: \n Name: $name \n email: $email"; 
 
-			$to='dhoat30@gmail.com'; 
+			$to='info@greatspicetauranga.co.nz'; 
 			$sub="Subscription Form"; 
 			mail($to,$sub,$msg); 
 		}

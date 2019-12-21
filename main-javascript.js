@@ -138,6 +138,8 @@
 		$('.more-faq').hide(); 
 	}); 
 
+//animatiom
+if ($(window).width()>1014){ 
 
 		//animation for special section 
 		//animation for tandoori section 
@@ -156,7 +158,7 @@
 		const sceneTandoori = new ScrollMagic.Scene({
   triggerElement: ".two-special",
 	triggerHook:0.2,
-	duration:"100%"
+	duration:"80%"
 })
   .setTween(tl10)
 		.addTo(controllerTandooriSection);
@@ -165,11 +167,40 @@
 				tl10.progress(); 
 				console.log(tl10.progress()); 
 				}
+} 
 
+
+if ($(window).width()<1014){ 
+
+
+		//animation for special section 
+		//animation for tandoori section 
+	var tl2= new TimelineMax({onUpdate:updatePercentageCatering}); 
+		var tl10= new TimelineMax(); 
+		const controllerTandooriSection= new ScrollMagic.Controller(); 
 		
 		
+
+		tl10.from(".dinner-special-text-animation",0.5, { x:200, opacity: 0}); 
+		tl10.from(".lunch-special-text-animation", 0.5, {x:200, opacity:0}); 
 		
-	
+
+	//automatic animation
+		const sceneTandoori = new ScrollMagic.Scene({
+  triggerElement: ".two-special",
+	triggerHook:0.2,
+	duration:"80%"
+})
+  .setTween(tl10)
+		.addTo(controllerTandooriSection);
+		
+	function updatePercentageCatering(){ 
+				tl10.progress(); 
+				console.log(tl10.progress()); 
+				}
+		
+		
+} 
 
 			
 	
