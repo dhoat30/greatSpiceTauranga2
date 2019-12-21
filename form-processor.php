@@ -84,6 +84,7 @@
 				</svg>
 				</a>
 			
+			
 		</div>
 		
 		<div class="menu-list"> 
@@ -363,20 +364,22 @@ The Great Spice business was established by Khem’s brother Bishnu Aryal back i
 	</div>
 	<div id="book-now" class="book-now-section"> 
 		<h6>Book A Table</h6>
-		<form method="post" action="form-processor.php"> 
+		<form method="post"> 
 				<label for="name">Your Name</label>
 				<input type="text" name="name" id="name"> 
 
 				<label for="number">Phone Number</label>
-				<input type="number" name="phone-number"> 
+				<input type="number" name="phone-number" id="phone-number"> 
 			
 				<label for="guests">Number Of Guests</label>
 				<input type="number" name="guests" id="guests"> 
 			
+				<input type="text" placeholder="what"> 
+			
 				<label for="date">Date</label>
-				<input type="date" name="date">
+				<input type="date" name="date" id="date">
 				<label for="time"> Time</label>
-				<input type="time" name="time"> 
+				<input type="time" name="time" id="time"> 
 				<p> *Minimum 5 hours of notice</p>
 				<button type="submit" name="submit"> Book Now </button>
 		</form>

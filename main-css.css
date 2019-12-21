@@ -73,11 +73,12 @@ p{
 	display: flex; 
 	justify-content:center; 
 	margin: 10px 0; 
+	flex-wrap: wrap; 
 	
 }
 
 .hero-button a{ 
-	margin: 0 20px; 
+	margin: 10px 20px; 
 	text-decoration: none; 
 	color: white; 
 	padding: 10px 20px; 
@@ -100,7 +101,7 @@ p{
 .desktop-navbar{
 	display:flex;
 	z-index: 2;
-	position: relative;
+	top: 0; 
 	background-color:rgba(110,33,22,1.00); 
 	
 }
@@ -339,7 +340,6 @@ display: inline-block;
 /* Menu section*----------*/ 
 .menu-section{ 
 	position: relative; 
-	
 }
 
 .menu-section picture{ 
@@ -377,7 +377,11 @@ display: inline-block;
 }
 /*menu-------------*/ 
 #menu-section { 
-	padding: 100px; 
+	padding: 100px 0; 
+}
+#menu-section h6{ 
+	text-align: center; 
+	margin-bottom: 20px; 
 }
 
 .menus{ 
@@ -386,7 +390,7 @@ display: inline-block;
 	flex-wrap: wrap; 
 }
 .menus div{ 
-	margin: 0 20px; 
+	margin: 20px 20px; 
 	width: 300px; 
 	height: 300px; 
 	background-size: cover; 
@@ -532,6 +536,7 @@ form button:hover{
 
 .faq-section div:nth-child(3), .faq-second-part { 
 	width: 70%; 
+	min-width: 330px;
 	max-width: 800px; 
 	margin: 0 auto; 
 }
@@ -636,6 +641,7 @@ form button:hover{
 }
 .newsletter-text{ 
 	width: 33%; 
+	min-width: 320px;
 	background-color: rgba(110,33,22,1.00); 
 	padding: 50px 0 50px 50px; 
 }
@@ -690,8 +696,11 @@ form button:hover{
 	margin-bottom: 20px; 
 }
 .footer > div{ 
-	margin: 0 40px; 
+	margin: 10px 40px; 
 	width: 360px; 
+}
+.contact{
+\
 }
 .contact div{ 
 	margin-top: 15px; 
@@ -739,13 +748,6 @@ form button:hover{
 	margin-top: -5px; 
 }
 
-/*scroll up--------*/
-.scroll-up-arrow svg{
-	transform: rotateX(180deg); 
-	position: fixed; 
-	right: 40px; 
-	bottom: 40px;
-}
 
 
 /*two specials ------------------------------*/ 
@@ -884,7 +886,28 @@ grid-area: dinner-special-text;
 	margin: 5px 10px 0 40px; 
 	font-family: Roboto-Light, Roboto-Medium, sans-serif; 
 }
+/*scroll up--------*/
+.scroll-up-arrow svg{
+	transform: rotateX(180deg); 
+	position: fixed; 
+	right: 40px; 
+	bottom: 60px;
+	z-index: 10; 
+}
 
+/*phone bottom------*/ 
+.phone-bottom a{ 
+	background-color: #4BDA64; 
+	display: none;
+	text-align: center;
+	text-decoration: none; 
+	color: white; 
+	padding: 15px 0; 
+	position: fixed; 
+	bottom: 0; 
+	right: 0; 
+	left: 0;
+}
 
 
 
