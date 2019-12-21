@@ -6,7 +6,8 @@
 <meta name="description" content="Great Spice Tauranga: Award-Winning Indian restaurant with plenty of free parking. Most authentic Indian cuisine near you, order online today or visit us anytime!">
 <meta name="keywords" content="Indian Restaurant">
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-
+<!--favicon--------> 
+	<link href="/YOUR_PATH/favicon.ico" rel="icon" type="image/x-icon" />
 <!--stylesheets------------> 
 	<link rel="stylesheet" type="text/css" href="main-css.css"> 
 	<link rel="stylesheet" href="mobile-index-stylesheet.css" type="text/css">
@@ -27,11 +28,115 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.js"></script>
 
 	<script src="/path/to/jquery.flip.min.js"></script>
+	
+	<!--faq snippet-------> 
+<script type="application/ld+json">
+{
+
+"@context": "https://schema.org",
+"@type": "FAQPage",
+"mainEntity": [{
+"@type": "Question",
+"name": "Where you are located?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "We are located on 44 Bureta Road, Otumoetai, Tauranga in the shop's blocks next to Dominoes Pizza and Liquorland and by the Countdown."
+}
+}, {
+"@type": "Question",
+"name": "What type of  Indian food you serve?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "We serve Authentic Northen Indian Cuisine."
+}
+}, {
+"@type": "Question",
+"name": "Why you are different from other Indian Restaurants?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Our food is different from others. We use authentic Indian spices and fresh local ingredients to create the most exquisite Indian Cuisine. We have highly well-trained chefs and waiting staff. Our menu is different and unique from other Indian restaurants in New Zealand. Some of the dishes we serve are hard to find in New Zealand.  Recently We have been voted best Indian restaurant and Takeaway in New Zealand."
+}
+}, 
+{
+"@type": "Question",
+"name": "Do you have Vegan, Dairy Free and Gluten Free dishes in your menu?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Yes, our menu is 95 percent gluten-free(except naan bread). We can also cater for Vegan and Dairy-Free requirements. Please advise our friendly staff if you have any dietary requirements and they will help you."
+}
+},
+{
+"@type": "Question",
+"name": "Are we BYO and fully licensed?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Yes, we are fully licensed, there's beer, wine, and spirits available from our bar area. We allow BYO (Wine Only) for lunch and dinner! Corkage is $6.00 per bottle."
+}
+},
+{
+"@type": "Question",
+"name": "Do you do takeaways and deliveries? What is the minimum spend required for home delivery?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Yes, We do takeaway services,  you come to our place and order, or you can place an order over the phone. For delivery, minimum spend $35."
+}
+},
+{
+"@type": "Question",
+"name": "Do you have to make a reservation to Dine In?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "No, but it is highly recommended on weekends, as it is the busiest time for us."
+}
+},
+{
+"@type": "Question",
+"name": "Can we take large bookings, like functions?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Yes, we can; however we can only accommodate 65 guests at a time. "
+}
+},
+{
+"@type": "Question",
+"name": "Do we have a children's menu?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Yes, we do have children menu available for Dine-In and Takeaway."
+}
+},
+{
+"@type": "Question",
+"name": "Q: Do we sell gift vouchers?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "A: Yes. Please ask a staff member for assistance. These come in values of $20 $30, $50 and $100."
+}
+},
+{
+"@type": "Question",
+"name": "Q: Do we require a deposit for groups?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "A: Yes, with groups more than 12 people we will generally ask for a deposit to secure your booking. We may specifically hire more service staff and chefs to work for the evening, as well as source more ingredients. Your deposit will cover these costs."
+}
+},
+{
+"@type": "Question",
+"name": "Can we bring a birthday cake?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Yes, you are allowed to bring a birthday cake. There is no surcharge for bringing your cake."
+}
+}]
+}
+</script>
 </head>
 
 	
 
 <body>
+<div class="overflow">
 	<div class="header-contact"> 
 		<div class="header-contact-flex"> 
 		<a href="tel:075702244"> <img src="photos/phone-icon.svg" width="20px" height="20px" alt="Phone Icon"> Phone Number: 075702244</a><br>
@@ -40,13 +145,13 @@
 		<a href="mailto:info@greatspicetauranga.co.nz"> <img src="photos/email-icon.svg" alt="Great Spice Tauranga Email" width="20px" height="20px"> info@greatspicetauranga.co.nz</a>
 		</div>
 	</div>
-	<nav class="desktop-navbar"> 
+	<nav class="desktop-navbar" id="navbar"> 
 		<div class="desktop-navbar-logo"> 
-			<img src="photos/great-spice-tauranga-logo.png" alt="Mumbai Masala Logo" width="160px" height="80px"> 
+			<img src="photos/great-spice-tauranga-logo.jpg" alt="Mumbai Masala Logo" width="160px" height="80px"> 
 		</div>
 		<div class="navbar"> 
 			<ul> 
-				<li><a href="#hero-section"> Home</a></li>
+				<li><a href="index.html"> Home</a></li>
 				<li><a href="#menu-section">Menu</a> </li>
 				<li><a href="gallery.html">Gallery</a> </li>
 				<li><a href="#about-us">About</a> </li>
@@ -84,7 +189,6 @@
 				</svg>
 				</a>
 			
-			
 		</div>
 		
 		<div class="menu-list"> 
@@ -104,6 +208,7 @@
 			</ul> 
 		</div>
 	</div>
+
 
 	
 	
@@ -486,7 +591,8 @@ The Great Spice business was established by Khem’s brother Bishnu Aryal back i
 		<a href="https://www.linkedin.com/company/great-spice-tauranga/" target="_blank"> <img src="photos/linkedin-icon-2.svg" alt="linked in" idth="50px" height="50px"></a>	
 	</div>
 	
-	<div class="footer">
+		
+<div class="footer">
 		<div class="google-maps"> 
 			<h6> Location</h6>
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3158.1836193401277!2d176.15138895080776!3d-37.66839297967975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d6ddb8cc27d86e7%3A0x291f87512b7cc54b!2sGreat%20Spice%20Tandoori%20Indian%20Restaurant%20%26%20Bar%20best%20fine%20dine%20%2C%20Takeway%2C%20Delivery!5e0!3m2!1sen!2snz!4v1576660100780!5m2!1sen!2snz" width="100%" height="130px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
@@ -542,15 +648,19 @@ The Great Spice business was established by Khem’s brother Bishnu Aryal back i
 		</div>
 		<div class="subscribe" id="subscribe"> 
 			<h6>Newsletter</h6>
-			<h3> Thanks For Subscribing</h3>
+			<form action="subscription-processor.php?id=44#subscribe" method="post" onSubmit="return newsletterForm()">
+					<input type="text" id="name-newsletter" placeholder="Your Name" name="full-name"> 
+					<input type="email" id="email" placeholder="Email" name="email"> 
+					<button type="submit" name="submit2"> Subscribe</button>
+			</form>
 		</div>
 	</div>
 	<div class="scroll-up-arrow">
-		<a href="#dine-in-parallax"> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 33 33">
-			  <g id="Icon_feather-arrow-down-circle" data-name="Icon feather-arrow-down-circle" transform="translate(-1.5 -1.5)">
-				<path id="Path_424" data-name="Path 424" d="M33,18A15,15,0,1,1,18,3,15,15,0,0,1,33,18Z" fill="none" stroke="#FCBA1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-				<path id="Path_425" data-name="Path 425" d="M12,18l6,6,6-6" fill="none" stroke="#FCBA1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-				<path id="Path_426" data-name="Path 426" d="M18,12V24" fill="none" stroke="#FCBA1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+		<a href="#navbar"> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 33 33">
+			  <g id="Icon_feather-arrow-down-circle1" data-name="Icon feather-arrow-down-circle" transform="translate(-1.5 -1.5)">
+				<path id="Path_4242" data-name="Path 424" d="M33,18A15,15,0,1,1,18,3,15,15,0,0,1,33,18Z" fill="none" stroke="#FCBA1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+				<path id="Path_4252" data-name="Path 425" d="M12,18l6,6,6-6" fill="none" stroke="#FCBA1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+				<path id="Path_4262" data-name="Path 426" d="M18,12V24" fill="none" stroke="#FCBA1B" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
 			  </g>
 		</svg>
 		</a>
@@ -559,13 +669,11 @@ The Great Spice business was established by Khem’s brother Bishnu Aryal back i
 	<div class="phone-bottom"> 
 		<a href="tel:075702244"> Call Us Now</a>
 	</div>
-	
+</div>
 	
 	<script type="text/javascript" src="main-javascript.js"> </script>
 	
 		<?php
-if (!empty($_POST['mailing-submit'])) {
-   //do something here;
 
 if(isset($_POST['submit'])){ 
 	$name=$_POST['name']; 
@@ -582,11 +690,9 @@ if(isset($_POST['submit'])){
 	mail($to,$sub,$msg); 
 	
 }
-	}	
 	
 	
-	if (!empty($_POST['submit1'])) {
-   //do something here;
+/*
 		if(isset($_POST['submit1'])){ 
 			$name=$_POST['full-name']; 
 			$email=$_POST['email']; 
@@ -597,7 +703,7 @@ if(isset($_POST['submit'])){
 			$sub="Subscription Form"; 
 			mail($to,$sub,$msg); 
 		}
-	}
+	} */ 
 	?>	
 </body>
 </html>

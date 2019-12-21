@@ -131,7 +131,6 @@
 }
 </script>
 </head>
-
 	
 
 <body>
@@ -150,7 +149,7 @@
 		</div>
 		<div class="navbar"> 
 			<ul> 
-				<li><a href="#hero-section"> Home</a></li>
+				<li><a href="index.html"> Home</a></li>
 				<li><a href="#menu-section">Menu</a> </li>
 				<li><a href="gallery.html">Gallery</a> </li>
 				<li><a href="#about-us">About</a> </li>
@@ -605,7 +604,7 @@ The Great Spice business was established by Khem’s brother Bishnu Aryal back i
 		<a href="https://www.linkedin.com/company/great-spice-tauranga/" target="_blank"> <img src="photos/linkedin-icon-2.svg" alt="linked in" idth="50px" height="50px"></a>	
 	</div>
 	
-	<div class="footer">
+<div class="footer">
 		<div class="google-maps"> 
 			<h6> Location</h6>
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3158.1836193401277!2d176.15138895080776!3d-37.66839297967975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d6ddb8cc27d86e7%3A0x291f87512b7cc54b!2sGreat%20Spice%20Tandoori%20Indian%20Restaurant%20%26%20Bar%20best%20fine%20dine%20%2C%20Takeway%2C%20Delivery!5e0!3m2!1sen!2snz!4v1576660100780!5m2!1sen!2snz" width="100%" height="130px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
@@ -661,11 +660,7 @@ The Great Spice business was established by Khem’s brother Bishnu Aryal back i
 		</div>
 		<div class="subscribe" id="subscribe"> 
 			<h6>Newsletter</h6>
-			<form action="subscription-processor.php?id=44#subscribe" method="post" onSubmit="return newsletterForm()">
-					<input type="text" id="name-newsletter" placeholder="Your Name" name="full-name"> 
-					<input type="email" id="email" placeholder="Email" name="email"> 
-					<button type="submit" name="submit2"> Subscribe</button>
-			</form>
+			<h3> Thanks For Subscribing</h3>
 		</div>
 	</div>
 	<div class="scroll-up-arrow">
