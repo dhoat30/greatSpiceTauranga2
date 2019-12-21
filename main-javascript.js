@@ -72,7 +72,7 @@
 //newsletter form
 		function newsletterForm()
 {
-	var fullName=document.getElementById("full-name"); 
+	var fullName=document.getElementById("name-newsletter"); 
     var email=document.getElementById("email"); 
 	
 	

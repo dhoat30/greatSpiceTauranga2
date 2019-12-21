@@ -365,7 +365,7 @@ The Great Spice business was established by Khem’s brother Bishnu Aryal back i
 	<div id="book-now" class="book-now-section" onSubmit="return form()"> 
 		<h6>Book A Table</h6>
 		<form method="post"> 
-				<h3 style="text-align: center;"> Thanks For Booking A Table...</h3>
+				<h3> Thanks For Booking A Table...</h3>
 		</form>
 	</div>
 	<div class="faq-section">
@@ -542,11 +542,7 @@ The Great Spice business was established by Khem’s brother Bishnu Aryal back i
 		</div>
 		<div class="subscribe" id="subscribe"> 
 			<h6>Newsletter</h6>
-			<form action="form-processor.php?id=44#subscribe" method="post">
-					<input type="text" id="name-newsletter" placeholder="Your Name"> 
-					<input type="email" id="email" placeholder="Email"> 
-					<button type="submit" name="submit"> Subscribe</button>
-			</form>
+			<h3> Thanks For Subscribing</h3>
 		</div>
 	</div>
 	<div class="scroll-up-arrow">
@@ -568,7 +564,9 @@ The Great Spice business was established by Khem’s brother Bishnu Aryal back i
 	<script type="text/javascript" src="main-javascript.js"> </script>
 	
 		<?php
-	
+if (!empty($_POST['mailing-submit'])) {
+   //do something here;
+
 if(isset($_POST['submit'])){ 
 	$name=$_POST['name']; 
 	$phone=$_POST['phone-number']; 
@@ -584,6 +582,22 @@ if(isset($_POST['submit'])){
 	mail($to,$sub,$msg); 
 	
 }
+	}	
+	
+	
+	if (!empty($_POST['submit1'])) {
+   //do something here;
+		if(isset($_POST['submit1'])){ 
+			$name=$_POST['full-name']; 
+			$email=$_POST['email']; 
+			$message="<h1> Thanks for the Subscription</h1>`"; 
+			$msg="Subscription Form: \n Name: $name \n email: $email"; 
+
+			$to='dhoat30@gmail.com'; 
+			$sub="Subscription Form"; 
+			mail($to,$sub,$msg); 
+		}
+	}
 	?>	
 </body>
 </html>
