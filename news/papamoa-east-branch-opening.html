@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
 <head>
@@ -9,9 +10,8 @@
 <!--favicon--------> 
 	<link href="photos/favicon.jpg" rel="icon" type="image/x-icon" />
 <!--stylesheets------------> 
-	<link rel="stylesheet" href="news/news-stylesheet.css">
-	<link rel="stylesheet" type="text/css" href="main-css.css"> 
-	<link rel="stylesheet" href="mobile-index-stylesheet.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="../main-css.css"> 
+	<link rel="stylesheet" href="../mobile-index-stylesheet.css" type="text/css">
 <!--fonts------------> 
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
 <!--jquery--------------> 
@@ -32,6 +32,81 @@
 	
 	<!--lightbox --> 
 	<script src="lightbox.min.js"></script>
+	<style> 
+	@charset "UTF-8";
+/* CSS Document */
+body{ 
+overflow-x: hidden;
+}
+*{ 
+margin: 0; 
+padding: 0; 
+font-family: "Roboto", sans-serif; 
+letter-spacing: 1px; 
+}
+
+h1{ 
+	font-size: 90pt;
+	font-weight: 900; 
+}
+
+/*news heading-----*/ 
+.news-heading{ 
+	background-image: url("../photos/Restaurant-photo1600px.jpg"); 
+	background-size: cover; 
+	background-attachment: fixed; 
+	background-repeat: n5-repeat; 
+	background-position: center; 
+	padding: 200px 0; 
+	color: white; 
+	text-align: center; 
+}
+
+/*news section---*/ 
+.news-section{ 
+	display: grid; 
+	grid-template-columns: repeat(auto-fill, minmax(300px, 70%)); 
+	grid-template-rows: 1fr; 
+	grid-gap: 30px; 
+	justify-content: center;
+	padding: 130px 0; 
+	ackground-color:#DDDDDD; 
+}
+.news-box{
+	box-shadow: 10px 10px 4px gray; 
+	width: 80%; 
+	margin: 0 auto;
+	padding-bottom: 80px; 
+	position: relative; 
+	background-color: white;
+}
+.news-box img{ 
+	object-fit: cover; 
+	padding-bottom: 20px; 
+	
+}
+.news-date{ 
+	color:#383838;
+	font-size: 10pt; 
+	font-weight: 600; 
+}
+.news-box h6, p{ 
+	width: 90%; 
+	margin: 0 auto; 
+}
+.news-box a{ 
+	background-color: #FCBA1B; 
+	padding: 10px 20px; 
+	text-decoration: none; 
+	color: black; 
+	display: inline-block;
+	position: absolute; 
+	right: 20px; 
+	bottom: 30px; 
+}
+	
+	</style>
+	
 </head>
 
 
@@ -51,12 +126,12 @@
 		</div>
 		<div class="navbar"> 
 			<ul> 
-				<li><a href="index.html"> Home</a></li>
-				<li><a href="index.html#menu-section">Menu</a> </li>
-				<li><a href="gallery.html">Gallery</a> </li>
-				<li><a href="index.html#about-us">About</a> </li>
-				<li><a href="index.html#book-now">Book Now</a></li>
-				<li><a href="news.html">News</a> </li>
+				<li><a href="../index.html"> Home</a></li>
+				<li><a href="../index.html#menu-section">Menu</a> </li>
+				<li><a href="../gallery.html">Gallery</a> </li>
+				<li><a href="../index.html#about-us">About</a> </li>
+				<li><a href="../index.html#book-now">Book Now</a></li>
+				<li><a href="../news.html">News</a> </li>
 				<li><a href="https://www.ordermeal.co.nz/great-spice-tauranga/">Order Online</a> </li>
 			</ul>
 		</div> 
@@ -98,45 +173,72 @@
 				</svg>
 			</div>
 			<ul> 
-				<li><a href="index.html"> Home</a></li>
-				<li><a href="index.html#menu-section">Menu</a> </li>
-				<li><a href="gallery.html">Gallery</a> </li>
-				<li><a href="index.html#about-us">About</a> </li>
-				<li><a href="index.html#book-now">Book Now</a></li>
-				<li><a href="news.html">News</a> </li>
+				<li><a href="../index.html"> Home</a></li>
+				<li><a href="../index.html#menu-section">Menu</a> </li>
+				<li><a href="../gallery.html">Gallery</a> </li>
+				<li><a href="../index.html#about-us">About</a> </li>
+				<li><a href="../index.html#book-now">Book Now</a></li>
+				<li><a href="../news.html">News</a> </li>
 				<li><a href="https://www.ordermeal.co.nz/great-spice-tauranga/">Order Online</a> </li>
 			</ul> 
 		</div>
 	</div>
 	
-	<div class="news-heading">
-		<h1>NEWS</h1>
-	</div>
-	
 	<div class="news-section">
 		<div class="news-box">
-			<img src="photos/about-us-background800px.jpg" alt="Best Indian Restaurant" width="100%" height="400px">
-			<p class="news-date">22 Oct, 2019 2:40pm NZ Herald </p>
-			<h6>Tauranga's Great Spice takes out national people's choice award</h6>
-			<p>A Tauranga restaurant has spiced up the lives of its customers to take away New Zealand's People's Choice restaurant title.
+			<img src="photos/outdoor-sitting.jpg" alt="Best Indian Restaurant" width="100%" height="400px">
+			<p class="news-date">13 Oct, 2018 3:00am NZ Herald</p>
+			<h6>BAY BITES: Great Spice Tandoori Indian Restaurant</h6>
+			<p>India has been a big topic of discussion at home for the last few weeks. <br><br>
+
+				Our daughter Amy and her partner have spent the past five weeks travelling through India and given today's technology, we wake most mornings to a daily update. <br><br>
+
+				Their travels over the vast Indian continent have led them to big cities and tiny villages and given them the opportunity to try many Indian delicacies. <br><br>
+
+				Not to be outdone by my daughter, I was delighted to get an invitation to the opening of Great Spice Tandoori Indian Restaurant and Bar at Golden Sands Papamoa. <br><br>
+
+				The restaurant is in a complex that has just opened in Papamoa East. <br><br>
+
+				Arriving at the restaurant, I was impressed with the interior. Its subtle tones convey a quiet ambiance for a relaxed evening out. I especially like the carpet! <br><br>
+
+				We were greeted by owner Bishnu and taken to our table for two. <br><br>
+
+				The crisp, white tablecloth and monogrammed plates and glassware added a lovely elegance to the restaurant. <br><br>
+
+				Poppadoms were served as we studied the menu, firstly deciding on a glass of pinot gris for her and a glass of pinot noir for me. <br><br>
+
+				The drinks menu is comprehensive and extremely affordable. <br><br>
+
+				After much deliberation, I went with Prawn Pakora as an entree. These were King Prawn cutlets dipped in mildly-spiced batter, deep fried and served with a mint sauce. If you love prawns like I do, you will enjoy these. <br><br>
+
+				
+				Choosing a main was so much harder! The selection is divided into Chicken, Lamb, Goat, Beef, Seafood and Vegetable and you have a choice of mild, medium, Kiwi hot or Indian hot curry heat. <br><br>
+
+				I went with a mild Prawn Pasanda. Prawn cutlets, cooked with almond, cashew cream gravy with a touch of yoghurt. Beautiful and at $18 for a main, reasonably priced. <br>
+				All main dishes are served with lovely, light Basmati rice. <br><br>
+
+
+				Indian menus are often comprehensive, and the Great Spice menu didn't disappoint! <br>
+				Like me after much deliberation, she chose Vegetable Samosa as her entree. Priced at just $5 for two pieces, the flaky pastry was filled with diced potatoes, peas, cream and cumin seeds and the samosa was delicious. It was a generous portion so the serving was shared.
+				For her main she decided on Chicken Korma ($19). It was cooked with cashews, almonds, creamy gravy and garnished with almonds. It is an all-time favourite. <br><br>
+
+				The korma was served with the best riata ever tasted. Again, the portions were generous. <br><br>
+
+				The staff were friendly and attentive without being intrusive. The Great Spice Tandoori Indian restaurant and Bar is fully licensed, and you can dine in, take away, or delivery is free on orders over $30. <br><br>
+
+				The Great Spice Tandoori Indian Restaurant and Bar has the Bay covered with restaurants also at Omanu, Mount Maunganui, Papamoa Plaza and Bureta Rd. <br><br>
+
+
+				the details
+				Great Spice Tandoori Indian Restaurant and Bar
+				Shop 9, 4 Golden Sands Drive, Papamoa
+				Ph: 07 542 4666 or 07 542 4333
+				www.greatspice.co.nz
+				Open seven days, 11am-2.30pm and 4.30pm until late.
 			</p>
-			<a href="news/best-restaurant-award.html"> Read More</a>
-			
 		</div>
-		
-		<div class="news-box">
-			<img src="news/photos/outdoor-sitting.jpg" alt="Best Indian Restaurant" width="100%" height="400px">
-			<p class="news-date">22 Oct, 2019 2:40pm NZ Herald </p>
-			<h6>Tauranga's Great Spice takes out national people's choice award</h6>
-			<p>A Tauranga restaurant has spiced up the lives of its customers to take away New Zealand's People's Choice restaurant title.
-			</p>
-			<a href="news/papamoa-east-branch-opening.html"> Read More</a>
-		</div>
+	
 	</div>
-	
-	
-		
-	
 <div class="footer">
 		<div class="google-maps"> 
 			<h6> Location</h6>
