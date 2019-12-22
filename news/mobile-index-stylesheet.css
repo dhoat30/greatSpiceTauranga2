@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*navbar-------*/ 
+@media (max-width: 1014px){
+	/*desktop-navbar*/ 
+	.desktop-navbar{ 
+		display: none; 
+	}
+	.mobile-navbar{ 
+		display: block;
+	}
+}
+
+@media (max-width: 843px){
+	
+/*---About khem Family--------*/
+
+.khem-family{ 
+	display: flex; 
+	justify-content:flex-end; 
+	width: 100%; 
+	background-image: url("photos/khem-family800px.jpg"); 
+	background-position:right; 
+	padding: 300px 0;
+	background-attachment: fixed; 
+}
+	.khem-family div{ 
+	width:60%;
+		min-width: 310px;
+	margin-right: 20px;  color:rgba(110,33,22,1.00);  
+	text-align: left;  
+}
+	
+}
+
+/*review section----*/ 
+@media (max-width: 636px){
+	/*two specials ------------------------------*/ 
+
+.two-special{ 
+	padding: 100px 0; 
+	margin: 0 auto; 
+	width: 95%; 
+	display: flex; 
+	flex-wrap: wrap;
+	
+}
+
+.dinner-special-image{ 
+	grid-area: dinner-special-image; 
+	background-image: url("photos/phone-icon.svg");
+	width: 0%; 
+	height: auto; 
+}
+
+.dinner-special-text{ 
+	
+	width: 90%; 
+	padding: 60px 10px 60px 40px;
+ 	filter: saturate(120%); 
+	background-color: rgba(199,154,71,1.00); 
+	border-top-right-radius: 150px; 
+}
+
+.lunch-special-image{  
+	grid-area: lunch-special-image; 
+	background-image: url("photos/phone-icon.svg");	
+	background-size: cover; 
+	background-position: center; 
+	width: 0%; 
+	height: auto; 
+}
+
+.lunch-special-text{
+	width: 90%;
+	text-align: right; 
+	padding: 80px 40px 80px 10px; 
+ 	filter: saturate(120%); 
+	background-color: rgba(199,154,71,1.00); 
+	border-bottom-left-radius: 150px;
+}
+
+.two-special h4{ 
+	color: white; 
+	font-size: 25pt; 
+	font-weight: 100; 
+	font-family: Roboto-black, sans-serif; 
+	letter-spacing: 2px; 
+}
+.two-special p{ 
+	color: white; 
+}
+.two-special span{ 
+	color: white; 
+	font-family: Roboto-Regular, sans-serif; 
+	font-size: 14pt; }
+
+.two-special h5{ 
+	color: white; 
+	font-size: 80pt;
+	font-family: Roboto-Regular, sans-serif; 
+	font-weight: 100; 
+	}
+	
+	/*REview Section-------------*/ 
+#review-section{ 
+	padding: 150px 0;  
+}
+
+.reviews{ 
+	margin: 0 auto; 
+	width: 100%; 
+	padding: 40px 0; 
+	text-align: center; 
+}
+
+.reviews .underline{ 
+	display: block; 
+	margin: 0 auto; 
+}
+	.reviews h6{ 
+		margin-bottom: 20px;	
+	}
+}
+
+/*photo-sizes-------*/ 
+@media (min-width: 800px) and (max-width: 1200px){
+	.about-us-background{ 
+	background-image: url("photos/about-us-background1200px.jpg"); 
+}
+	.newsletter-section{ 
+	background-image: url("photos/newsletter1200px.jpg"); 
+}
+	.specials{ 
+	background-image:url("photos/Restaurant-photo1200px.jpg"); 
+}
+}
+/*photo sizes----*/ 
+@media (min-width: 500px) and (max-width: 800px){
+	.about-us-background{ 
+	background-image: url("photos/about-us-background800px.jpg"); 
+}
+	.newsletter-section{ 
+	background-image: url("photos/newsletter800px.jpg"); 
+}
+	.specials{ 
+	background-image:url("photos/Restaurant-photo800px.jpg"); 
+}
+}
+
+@media (max-width: 500px){
+	.about-us-background{ 
+	background-image: url("photos/about-us-background400px.jpg"); 
+	background-attachment: scroll; 
+	padding: 100px 0; 
+}
+	.khem-family{ 
+	background-image: url("photos/khem-family400px.jpg"); 
+	padding: 300px 0;
+	background-attachment: scroll; 
+}
+	.newsletter-section{ 
+	background-image: url("photos/phone-icon.svg");
+	padding: 0 0;
+	background-attachment: scroll; 
+}
+	.specials{ 
+	background-image:url("photos/Restaurant-photo800px.jpg"); 
+	margin-top: 0px; 
+	width: 100%; 
+	position: relative; 
+	background-attachment: scroll; 
+	z-index: -2; 
+	background-size:auto; 
+	background-repeat: no-repeat;
+	background-color: #202020; 
+}
+	/*subscribe----*/ 
+	
+
+.subscribe form input{ 
+	margin-top: -10px; 
+	background-color: rgba(29,29,29,1.00); 
+	border: solid 1px rgba(171,171,171,1.00); 
+	width: 300px;  
+}
+
+
+
+	
+	
+}
