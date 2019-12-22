@@ -137,7 +137,7 @@
 
 <body>
 <div class="overflow">
-	<div class="header-contact"> 
+	<div class="header-contact" id="navbar"> 
 		<div class="header-contact-flex"> 
 		<a href="tel:075702244"> <img src="photos/phone-icon.svg" width="20px" height="20px" alt="Phone Icon"> Phone Number: 075702244</a><br>
 		</div>
@@ -145,7 +145,7 @@
 		<a href="mailto:info@greatspicetauranga.co.nz"> <img src="photos/email-icon.svg" alt="Great Spice Tauranga Email" width="20px" height="20px"> info@greatspicetauranga.co.nz</a>
 		</div>
 	</div>
-	<nav class="desktop-navbar" id="navbar"> 
+	<nav class="desktop-navbar"> 
 		<div class="desktop-navbar-logo"> 
 			<img src="photos/great-spice-tauranga-logo.jpg" alt="Mumbai Masala Logo" width="160px" height="80px"> 
 		</div>
