@@ -858,7 +858,7 @@ grid-area: dinner-special-text;
 .specials h1{ 
 	color: white; 
 	text-align: center; 
-	padding-top: 100px; 
+	padding-top: 100px 0; 
 	font-size: 45pt; 
 }
 .specials h4{ 
@@ -866,6 +866,9 @@ grid-area: dinner-special-text;
 	font-weight: 400; 
 	color: white; 
 	text-align: center; 
+	width: 80%;
+	margin: 0 auto;
+	
 }
 .special-grid{ 
 	padding: 40px 0; 

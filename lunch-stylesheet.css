@@ -44,4 +44,14 @@ h1{
 	margin: 0 auto; 
 	padding: 100px 0; 
 }
+/*navbar-------*/ 
+@media (max-width: 1014px){
+	/*desktop-navbar*/ 
+	.desktop-navbar{ 
+		display: none; 
+	}
+	.mobile-navbar{ 
+		display: block;
+	}
+}
 

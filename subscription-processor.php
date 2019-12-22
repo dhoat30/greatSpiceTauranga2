@@ -196,7 +196,7 @@
 				</svg>
 			</div>
 			<ul> 
-				<li><a href="#hero-section"> Home</a></li>
+				<li><a href="index.html"> Home</a></li>
 				<li><a href="#menu-section">Menu</a> </li>
 				<li><a href="gallery.html">Gallery</a> </li>
 				<li><a href="#about-us">About</a> </li>
@@ -678,7 +678,19 @@ The Great Spice business was established by Khem’s brother Bishnu Aryal back i
 		<a href="tel:075702244"> Call Us Now</a>
 	</div>
 </div>	
+			<?php
+		if(isset($_POST['submit2'])){ 
+			$name=$_POST['full-name']; 
+			$email=$_POST['email']; 
+			$message="<h1> Thanks for the Subscription</h1>`"; 
+			$msg="Subscription Form: \n Name: $name \n email: $email"; 
+
+			$to='info@greatspicetauranga.co.nz'; 
+			$sub="Subscription Form"; 
+			mail($to,$sub,$msg); 
+		}
 	
+	?>	
 	<script type="text/javascript" src="main-javascript.js"> </script>
 
 </body>

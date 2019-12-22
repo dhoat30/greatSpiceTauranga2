@@ -114,3 +114,13 @@ h1{
 	bottom: 40px;
 }
 
+/*navbar-------*/ 
+@media (max-width: 1014px){
+	/*desktop-navbar*/ 
+	.desktop-navbar{ 
+		display: none; 
+	}
+	.mobile-navbar{ 
+		display: block;
+	}
+}

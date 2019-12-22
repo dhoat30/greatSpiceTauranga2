@@ -198,7 +198,7 @@
 				</svg>
 			</div>
 			<ul> 
-				<li><a href="#hero-section"> Home</a></li>
+			<li><a href="index.html"> Home</a></li>
 				<li><a href="#menu-section">Menu</a> </li>
 				<li><a href="gallery.html">Gallery</a> </li>
 				<li><a href="#about-us">About</a> </li>

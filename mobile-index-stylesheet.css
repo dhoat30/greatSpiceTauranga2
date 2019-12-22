@@ -151,11 +151,6 @@
 }
 
 @media (max-width: 500px){
-	@charset "UTF-8";
-/* CSS Document */
-html, body{ 
-overflow-x: hidden;
-}
 	.about-us-background{ 
 	background-image: url("photos/about-us-background400px.jpg"); 
 	background-attachment: scroll; 
