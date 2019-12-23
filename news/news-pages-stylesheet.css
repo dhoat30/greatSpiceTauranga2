@@ -1,0 +1,90 @@
+
+	@charset "UTF-8";
+/* CSS Document */
+body{ 
+overflow-x: hidden;
+}
+*{ 
+margin: 0; 
+padding: 0; 
+font-family: "Roboto", sans-serif; 
+letter-spacing: 1px; 
+}
+
+h1{ 
+	font-size: 90pt;
+	font-weight: 900; 
+}
+
+/*news heading-----*/ 
+.news-heading{ 
+	background-image: url("../photos/Restaurant-photo1600px.jpg"); 
+	background-size: cover; 
+	background-attachment: fixed; 
+	background-repeat: n5-repeat; 
+	background-position: center; 
+	padding: 200px 0; 
+	color: white; 
+	text-align: center; 
+}
+
+/*news section---*/ 
+.news-section{ 
+	display: grid; 
+	grid-template-columns: repeat(auto-fill, minmax(300px, 70%)); 
+	grid-template-rows: 1fr; 
+	grid-gap: 30px; 
+	justify-content: center;
+	padding: 130px 0; 
+	ackground-color:#DDDDDD; 
+}
+.news-box{
+	box-shadow: 10px 10px 4px gray; 
+	width: 80%; 
+	min-width: 400px; 
+	margin: 0 auto;
+	padding-bottom: 80px; 
+	position: relative; 
+	background-color: white;
+}
+.news-box img{ 
+	object-fit: cover; 
+	padding-bottom: 20px; 
+	
+}
+.news-date{ 
+	color:#383838;
+	font-size: 10pt; 
+	font-weight: 600; 
+}
+.news-box h6, p{ 
+	width: 90%; 
+	margin: 0 auto; 
+}
+.news-box a{ 
+	background-color: #FCBA1B; 
+	padding: 10px 20px; 
+	text-decoration: none; 
+	color: black; 
+	display: inline-block;
+	position: absolute; 
+	right: 20px; 
+	bottom: 30px; 
+}
+
+@media (max-width: 400px){ 
+	.news-box{
+	box-shadow: 0 0 0 gray; 
+	width: 100%; 
+	min-width: 0;  
+	margin: 0 auto;
+	padding-bottom: 80px; 
+	position: relative; 
+	background-color: white;
+}
+.news-box h6{ 
+		font-size: 20pt; 
+	}
+
+}
+	

@@ -54,7 +54,7 @@ h1{
 	background-image: url("../photos/Restaurant-photo1600px.jpg"); 
 	background-size: cover; 
 	background-attachment: fixed; 
-	background-repeat: n5-repeat; 
+	background-repeat: no-repeat; 
 	background-position: center; 
 	padding: 200px 0; 
 	color: white; 
@@ -62,7 +62,7 @@ h1{
 }
 
 /*news section---*/ 
-.news-section{ 
+.news-section{ x`
 	display: grid; 
 	grid-template-columns: repeat(auto-fill, minmax(300px, 70%)); 
 	grid-template-rows: 1fr; 
@@ -74,6 +74,7 @@ h1{
 .news-box{
 	box-shadow: 10px 10px 4px gray; 
 	width: 80%; 
+	min-width: 320px; 
 	margin: 0 auto;
 	padding-bottom: 80px; 
 	position: relative; 
@@ -144,7 +145,7 @@ h1{
 				</svg>
 			</div>
 			
-			<img src="photos/great-spice-tauranga-logo.png" alt="Mumbai Masala Logo" width="130px" height="65px">
+			<img src="photos/great-spice-tauranga-logo.jpg" alt="Mumbai Masala Logo" width="130px" height="65px">
 			
 			<a href="tel:075702244"> 
 					<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
@@ -283,7 +284,9 @@ The most popular restaurant in the Bay of Plenty region was voted as Thai Thani 
 		</svg>
 		</a>
 	</div>
-	
+	<div class="copyright"> 
+		<p>©Great Spice 2019. <a href="https://webduel.co.nz/"> Website created by Webduel. </a> </p>
+	</div>
 	<div class="phone-bottom"> 
 		<a href="tel:075702244"> Call Us Now</a>
 	</div>
