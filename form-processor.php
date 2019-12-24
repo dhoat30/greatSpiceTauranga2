@@ -170,7 +170,7 @@
 				</svg>
 			</div>
 			
-			<img src="photos/great-spice-tauranga-logo.png" alt="Mumbai Masala Logo" width="130px" height="65px">
+			<img src="photos/great-spice-tauranga-logo.jpg" alt="Mumbai Masala Logo" width="130px" height="65px">
 			
 			<a href="tel:075702244"> 
 					<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
@@ -327,7 +327,7 @@
 		<div class="lunch-special-image"> </div>	
 	</div>
 	
-	<div class="specials"> 
+		<div class="specials"> 
 		<div class="special-overlay"> </div>
 			<h1>LUNCH MENU</h1>
 		<h4>BETWEEN 11:00AM TO 2:30PM ONLY 7 DAYS</h4>
@@ -335,19 +335,24 @@
 			<div class="special-box"> 
 				<h5><span>$</span>8.99</h5>
 				<h3>Takeaway Only</h3>
+				<p>(Excluding Seafood, Goat & Tandoori)</p>
 				<ul> 
 					<li>Curry</li>
 					<li>Rice</li>
+					<li>(Excluding Seafood, Goat & Tandoori)</li>
 				</ul>
 			</div>
 			
 			<div class="special-box"> 
 				<h5><span>$</span>10</h5>
+				
 				<h3>Takeaway Only</h3>
+				<p>(Excluding Seafood, Goat & Tandoori)</p>
 				<ul> 
 					<li>Curry</li>
 					<li>Rice</li>
 					<li> Naan</li>
+					
 				</ul>
 			</div>
 		
@@ -355,6 +360,8 @@
 			<div class="special-box"> 
 				<h5><span>$</span>12</h5>
 				<h3>Dine In Combo 1</h3>
+				<p>(Excluding Seafood, Goat & Tandoori)</p>
+
 				<ul> 
 					<li>Curry</li>
 					<li>Rice</li>
@@ -366,6 +373,7 @@
 			<div class="special-box"> 
 				<h5><span>$</span>15</h5>
 				<h3>Dine In Combo 2</h3>
+				<p>(Excluding Seafood, Goat & Tandoori)</p>
 				<ul> 
 					<li>Curry</li>
 					<li>Rice</li>
@@ -378,6 +386,7 @@
 			<div class="special-box"> 
 				<h5><span>$</span>16</h5>
 				<h3>Dine In Combo 3</h3>
+				<p>(Excluding Seafood, Goat & Tandoori)</p>
 				<ul> 
 					<li>Curry</li>
 					<li>Rice</li>
@@ -569,6 +578,10 @@ The Great Spice business was established by Khem’s brother Bishnu Aryal back i
 			</div>
 			</div>	
 		</div>
+	</div>
+	
+		<div class="youtube-video">
+		<iframe src="https://www.youtube.com/embed/d2cxHxXv8Mw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>
 	
 	<div class="newsletter-section"> 

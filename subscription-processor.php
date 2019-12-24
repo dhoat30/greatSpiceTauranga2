@@ -168,7 +168,7 @@
 				</svg>
 			</div>
 			
-			<img src="photos/great-spice-tauranga-logo.png" alt="Mumbai Masala Logo" width="130px" height="65px">
+			<img src="photos/great-spice-tauranga-logo.jpg" alt="Mumbai Masala Logo" width="130px" height="65px">
 			
 			<a href="tel:075702244"> 
 					<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
@@ -332,19 +332,24 @@
 			<div class="special-box"> 
 				<h5><span>$</span>8.99</h5>
 				<h3>Takeaway Only</h3>
+				<p>(Excluding Seafood, Goat & Tandoori)</p>
 				<ul> 
 					<li>Curry</li>
 					<li>Rice</li>
+					<li>(Excluding Seafood, Goat & Tandoori)</li>
 				</ul>
 			</div>
 			
 			<div class="special-box"> 
 				<h5><span>$</span>10</h5>
+				
 				<h3>Takeaway Only</h3>
+				<p>(Excluding Seafood, Goat & Tandoori)</p>
 				<ul> 
 					<li>Curry</li>
 					<li>Rice</li>
 					<li> Naan</li>
+					
 				</ul>
 			</div>
 		
@@ -352,6 +357,8 @@
 			<div class="special-box"> 
 				<h5><span>$</span>12</h5>
 				<h3>Dine In Combo 1</h3>
+				<p>(Excluding Seafood, Goat & Tandoori)</p>
+
 				<ul> 
 					<li>Curry</li>
 					<li>Rice</li>
@@ -363,6 +370,7 @@
 			<div class="special-box"> 
 				<h5><span>$</span>15</h5>
 				<h3>Dine In Combo 2</h3>
+				<p>(Excluding Seafood, Goat & Tandoori)</p>
 				<ul> 
 					<li>Curry</li>
 					<li>Rice</li>
@@ -375,6 +383,7 @@
 			<div class="special-box"> 
 				<h5><span>$</span>16</h5>
 				<h3>Dine In Combo 3</h3>
+				<p>(Excluding Seafood, Goat & Tandoori)</p>
 				<ul> 
 					<li>Curry</li>
 					<li>Rice</li>
@@ -584,6 +593,10 @@ The Great Spice business was established by Khem’s brother Bishnu Aryal back i
 		</div>
 	</div>
 	
+		<div class="youtube-video">
+		<iframe src="https://www.youtube.com/embed/d2cxHxXv8Mw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	
 	<div class="newsletter-section"> 
 		<div class="newsletter-text">
 			<h6> STAY IN TOUCH <span>WITH US</span> </h6>
@@ -673,7 +686,9 @@ The Great Spice business was established by Khem’s brother Bishnu Aryal back i
 		</svg>
 		</a>
 	</div>
-	
+	<div class="copyright"> 
+		<p>©Great Spice 2019. <a href="https://webduel.co.nz/"> Website created by Webduel. </a> </p>
+	</div>
 	<div class="phone-bottom"> 
 		<a href="tel:075702244"> Call Us Now</a>
 	</div>
