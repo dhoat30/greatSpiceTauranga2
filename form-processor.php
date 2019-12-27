@@ -147,8 +147,7 @@
 	</div>
 	<nav class="desktop-navbar"> 
 		<div class="desktop-navbar-logo"> 
-			<img src="photos/great-spice-tauranga-logo.jpg" alt="Mumbai Masala Logo" width="160px" height="80px"> 
-		</div>
+			<a href="../index.html">	<img  src="photos/great-spice-tauranga-logo.jpg" alt="Mumbai Masala Logo" width="160px" height="80px"> </a> </div>
 		<div class="navbar"> 
 			<ul> 
 				<li><a href="index.html"> Home</a></li>
@@ -170,9 +169,7 @@
 				</svg>
 			</div>
 			
-			<img src="photos/great-spice-tauranga-logo.jpg" alt="Mumbai Masala Logo" width="130px" height="65px">
-			
-			<a href="tel:075702244"> 
+			<a href="../index.html">	<img  src="photos/great-spice-tauranga-logo.jpg" alt="Mumbai Masala Logo" width="160px" height="80px"> </a> <a href="tel:075702244"> 
 					<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 					<svg class="contact-svg" version="1.1" id="Capa_1" width="35" height="35" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 						 viewBox="0 0 20.1 20.1" style="enable-background:new 0 0 20.1 20.1;" xml:space="preserve">
