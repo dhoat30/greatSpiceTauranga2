@@ -105,10 +105,9 @@ p{
 .hero-image{ 
 	height: 80vh; 
 	position: relative; 
-	width: 80%; 
+	width: 100%; 
 	min-width: 350px; 
 	margin: 0 auto; 
-	box-shadow: 20px 20px 3px gray; 
 }
 
 .hero-overlay{ 
@@ -136,6 +135,13 @@ p{
 	font-size: 25pt;  
 	margin: 0 auto;
 }
+
+.hero-awards{ 
+	position: absolute; 
+	z-index: 2; 
+	top: 0; 
+	right: 20px; 
+	}
 /*navbar------------------------*/ 
 .desktop-navbar{
 	display:flex;
@@ -230,86 +236,6 @@ position: relative;
 }
 
 
-/*
-
-.menu-section{ 
-	display: flex; 
-	flex-wrap: wrap; 
-	
-}
-
-.menu-deal{ 
-	width: 50%; 
-	position: relative; 
-}
-.menu-deal h6{ 
-	position: absolute; 
-	top: 120px; 
-	left: 120px; 
-	color: white; 
-}
-.menu-deal h6::before{ 
-	content: url("photos/menu-deal-svg.png"); 
-	position: absolute; 
-	top: -65px; 
-}
-.menu-list{ 
-	width: 50%; 
-	background-color: rgba(243,86,89,1.00); 
-	display: flex; 
-	justify-content: center; 
-	align-items: center; 
-}
-
-.menu-text{ 
-	width: 70%; 
-}
-
-.menu-list h3{ 
-	color: rgba(252,186,27,1.00); 
-	border-bottom: solid 3px white; 
-	width: 100%; 
-	padding: 0 0 7px 0; 
-	margin-bottom: 30px; 
-}
-
-.menu-list h4{ 
-	color: white; 
-	font-weight: 500; 
-	display: inline-block; 
-}
-.menu-list p{ 
-	color: rgba(252,186,27,1.00); 
-	font-size: 9pt; 
-	margin-bottom: 15px; 
-}
-
-.underline1{ 
-		display: inline-block; 
-		border-bottom: dotted 3px white; 
-		width: 32%;
-}
-.underline2{ 
-	display: inline-block; 
-		border-bottom: dotted 3px white; 
-		width: 25%; 
-}
-.underline3 { 
-	display: inline-block; 
-		border-bottom: dotted 3px white; 
-		width: 59%; 
-}
-.underline4{ 
-display: inline-block; 
-		border-bottom: dotted 3px white; 
-		width: 59%; 
-}
-.underline5{ 
-	display: inline-block; 
-		border-bottom: dotted 3px white; 
-		width: 59%; 
-}
-*/ 
 /*opening hours-------------*/ 
 .opening-hours-section{ 
 	position: relative; 
