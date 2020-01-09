@@ -3,7 +3,7 @@
 
 
 /*navbar-------*/ 
-@media (max-width: 1014px){
+@media (max-width: 1200px){
 	/*desktop-navbar*/ 
 	.desktop-navbar{ 
 		display: none; 
@@ -11,6 +11,21 @@
 	.mobile-navbar{ 
 		display: block;
 	}
+	.hero-awards{ 
+	position: static; 
+	z-index: 2; 
+	top: 30px; 
+	right: 20px; 
+	}
+	
+.hero-awards img:nth-child(1){ 
+	width: 100px; 
+	height: 100px;
+}
+.hero-awards img:nth-child(2){ 
+	width: 120px; 
+	height: 120px;
+}
 }
 
 @media (max-width: 843px){
