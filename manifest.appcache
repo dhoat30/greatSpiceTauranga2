@@ -1,0 +1,27 @@
+CACHE MANIFEST
+#DATE 2020-01-11
+
+CACHE:
+/photos/hero-img1600px.jpg
+/photos/hero-img1200px.jpg
+/photos/hero-img800px.jpg
+/photos/hero-img400px.jpg
+/photos/Restaurant-photo1600px.jpg
+/photos/Restaurant-photo1200px.jpg
+/photos/Restaurant-photo800px.jpg
+/photos/menu-log-award.png
+/photos/khem-family400px.jpg
+/photos/hours-section400px.jpg
+/photos/about-us-background400px.jpg
+/photos/dine-in-menu.jpg
+/photos/takeaway-menu-flex.jpg
+
+NETWORK:
+*
+
+
+
+SETTINGS:
+fast
+
+
