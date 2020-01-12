@@ -1,4 +1,5 @@
 // JavaScript Document
+
 // JavaScript Document
 	$(".hamburger-menu").click(function(){ 
 			
@@ -203,5 +204,4 @@ if ($(window).width()<1014){
 } 
 
 
-	
 	
