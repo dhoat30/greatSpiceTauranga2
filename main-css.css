@@ -910,6 +910,20 @@ color: white;
 	color: rgba(254,192,0,1.00); 
 }
 
-
+/*subscribing thanks*/ 
+.subscibe-thanks-page{ 
+	text-align: center; 
+	height: 100vh;
+	width: 100%; 
+	flex-direction: column;
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+}
+.subscibe-thanks-page h1, p{ 
+	width: 80%; 
+	min-width: 350px; 
+	margin: 0 auto; 
+}
 
 
